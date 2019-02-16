@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 600px;
+  border: 1px solid #000;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}

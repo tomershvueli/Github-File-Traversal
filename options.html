@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Github File Traversal Options</title>
+  <link href="options.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <p>
+    In order for the Github File Traversal plugin to be able to populate a private repository's tree, it needs a personal access token. You can <a href="https://github.com/settings/tokens">acquire a personal access token here</a>. 
+    <img src="/img/generate_token.png" alt="Generate Personal Access Token" />
+  </p>
+  <p>
+    Note: If your organization uses SAML for authentication, you will need to enable the personal access token for SSO. 
+    <img src="/img/enable_sso.png" alt="Enable SSO" />
+  </p>
+
+  <label>
+    Access Token: 
+    <input type="text" id="access_token">
+  </label>
+
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <footer>
+    <small>
+      A Very <a href="http://tomer.shvueli.com">Tomer</a> Product. Made from all around the <a href="https://wherethehellaretomerandmichelle.com">🌍</a>.
+    </small>
+  </footer>
+  <script src="options.js"></script>
+</body>
+</html>
